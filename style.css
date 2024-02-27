@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Itim&family=Lemon&family=Patrick+Hand&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header_flex_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap: 50px;
+}
+
+header ul li a {
+    font-size: 18px;
+    font-family: 'Patrick Hand', cursive;
+    color: #c5c2ca;
+}
+
+header ul li a:hover {
+    border-bottom: 2px solid orangered;
+}
+
+.home {
+    color: #000;
+}
+
+
+
+.about3 {
+    width: 458px;
+}
+
+.flex_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-virtual {
+    width: 427px;
+    height: 400px;
+}
+
+.virtual {
+    font-size: 50px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Lemon', serif;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.prg {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Lemon', serif;
+    font-family: 'Patrick Hand', cursive;
+    color: #bfbdc3;
+
+}
+
+.btn {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color: #458ff6;
+    cursor: pointer;
+}
+
+.btn b:hover {
+    color: #ffa500;
+
+}
+
+.our-services {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Lemon', serif;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.line {
+    text-align: center;
+}
+
+.srcond-flex-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.first {
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    border: 2px solid #c1c0c5;
+}
+
+.first:hover{
+    transition-duration: 2s;
+    box-shadow: 4px 4px 15px  #000;
+    background-color: #0000ff;
+    border: 3px solid #000;
+}
+
+
+.image {
+    padding: 20px;
+}
+
+.online {
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Lemon', serif;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.buy {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Lemon', serif;
+    font-family: 'Patrick Hand', cursive;
+    color: #bfbdc3;
+}
+
+
+
+.online:hover{
+color: red;
+}
+
+.buy:hover{
+    color: #ff4;
+}
+
+.flex-btn {
+    text-align: center;
+}
+
+.my-btn {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #458ff6;
+    color: #458ff6;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.my-btn:hover {
+    color: #ff4500;
+}
+
+.third-flex-box {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.leading {
+    font-size: 40px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Lemon', serif;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.trafalgar {
+    font-size: 20px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Lemon', serif;
+    font-family: 'Patrick Hand', cursive;
+    color: #bfbdc3;
+}
+
+.fourth-flex-box {
+    display: flex;
+    justify-content: space-around
+}
+
+.big-box {
+
+    text-align: center;
+    align-items: center;
+    background-color: #60adf3;
+    border: 2px solid #008000;
+    border-radius: 30px;
+    width: 1219;
+    height: 350px;
+}
+
+.arrow {
+    text-align: center;
+}
+
+.What-our {
+    font-size: 40px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Lemon', serif;
+    font-family: 'Patrick Hand', cursive;
+    color: #fff;
+}
+
+.line-2 {
+    color: #fff;
+}
+
+.Mask {
+    border-radius: 50%;
+}
+
+.box3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-felx {
+    display: flex;
+
+}
+
+.Edward {
+    color: #fff;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+
+.Our {
+    font-size: 20px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Lemon', serif;
+    font-family: 'Patrick Hand', cursive;
+    color: #fff;
+}
+
+.check {
+    text-align: center;
+}
+
+.out {
+    font-size: 40px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Lemon', serif;
+    font-family: 'Patrick Hand', cursive;
+    color: #000;
+}
+
+.fourth-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.disease {
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Lemon', serif;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.in-this {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Lemon', serif;
+    font-family: 'Patrick Hand', cursive;
+    color: #aeacb5;
+}
+
+.read-more {
+    text-align: center;
+    color:#458ff6;
+}
+
+.read:hover{
+    
+    color: #ffa500;
+}
+
+.btn-div{
+    text-align: center;
+}
+
+.btn-btn {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #458ff6;
+    color: #458ff6;
+    background-color: #fff;
+    cursor: pointer;
+}
+.btn-btn:hover {
+    color: #ff4500;
+}
+
+.container-last{
+    width: 90%;
+
+}
+
+.last-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1600px;
+    height: 432px;
+    background-color: #63b7f3;
+
+}
+.provides{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Lemon', serif;
+    font-family: 'Patrick Hand', cursive;
+    color: #d7eafc;
+}
+.first-page{
+    text-align: center;
+}
+.company{
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Lemon', serif;
+    font-family: 'Patrick Hand', cursive;
+}
+.about-this{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Lemon', serif;
+    font-family: 'Patrick Hand', cursive;
+    color: #d7eafc;
+}
